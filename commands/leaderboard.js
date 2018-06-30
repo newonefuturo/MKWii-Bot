@@ -48,7 +48,7 @@ body = JSON.parse(body.trim())
         .addField(`${body.recentRecords[3].player}:`, `The track is **${body.recentRecords[3].trackName} ${track3}** with a finishing time of **${body.recentRecords[3].finishTimeSimple}**. This was achieved on **${dateformat(body.recentRecords[3].dateSet, "dddd, mmmm dS, yyyy")}**`)
         .addField(`${body.recentRecords[4].player}:`, `The track is **${body.recentRecords[4].trackName} ${track4}** with a finishing time of **${body.recentRecords[4].finishTimeSimple}**. This was achieved on **${dateformat(body.recentRecords[4].dateSet, "dddd, mmmm dS, yyyy")}**`)
         .addField(`${body.recentRecords[5].player}:`, `The track is **${body.recentRecords[5].trackName} ${track5}** with a finishing time of **${body.recentRecords[5].finishTimeSimple}**. This was achieved on **${dateformat(body.recentRecords[5].dateSet, "dddd, mmmm dS, yyyy")}**`)
-        msg.channel.send({embed: embed})
+        message.channel.send({embed: embed})
       }
   })
 }
