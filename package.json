@@ -1,0 +1,29 @@
+{
+  "name": "mkwii-bot",
+  "version": "1.0.0",
+  "description": "Mario Kart Wii bot for the Wiimmfi MKWII discord server",
+  "main": "index.js",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "discord.js": "^11.3.2",
+    "get-json": "^1.0.0",
+    "cheerio": "^1.0.0-rc.2",
+    "http": "^0.0.0",
+    "request": "^2.87.0",
+    "got": "^8.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThatMajesticGuy/MKWii-Bot.git"
+  },
+  "author": "ThatMajesticGuy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThatMajesticGuy/MKWii-Bot/issues"
+  },
+  "homepage": "https://github.com/ThatMajesticGuy/MKWii-Bot#readme"
+}
