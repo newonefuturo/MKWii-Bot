@@ -57,3 +57,19 @@ require('fs').readdir("./commands", (err, files) => {
          }
 
  });
+
+
+bot.on("message", message => {
+  if (message.content === "test") {
+  var embed = new Discord.RichEmbed()
+  .setTitle("Welcome to MKWiimmfi Official!")
+  .setColor("#5f05a8")
+  .setDescription("Please tell us which tracks and game modes you play via the command mk!selfrole -role you want-. Include any optional roles first then the mandatory role you want. **If the bot @Hideyoshi Kinoshita is offline, message a @Chat Staff instead with the roles you want.**")
+  .addField("Roles List", "-------------------------------------------------------------------------------")
+  .addField("Optional Roles (any or none of these may be chosen):", "**Battler, Karter, Countdown Player**")
+  .addField("Mandatory Roles (one may only be chosen):", "**All Tracks Player, Regular Tracks Player, Custom Tracks**")
+  .addField("Example:", "mk!selfrole Karter and then !selfrole All Tracks Player")
+  .addField("__IF YOU ONLY USE BIKES DO NOT SELECT THE KARTER ROLE.__", "__**IF YOU DO NOT PLAY CUSTOM TRACKS OR KNOW WHAT THEY ARE DO NOT SELECT THE ALL TRACKS PLAYER ROLE.**__")
+  message.channel.send({embed:embed})
+  }
+})
