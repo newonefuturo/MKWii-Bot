@@ -9,7 +9,7 @@ bot.login(process.env.BOT_TOKEN)
 
 bot.on('ready', () => {
   console.log('ready!')
-  bot.user.setActivity("Mario Kart Wii")
+  bot.user.setActivity("Mario Kart Wii [mk!help for help]")
 });
 
 require('fs').readdir("./commands", (err, files) => {
