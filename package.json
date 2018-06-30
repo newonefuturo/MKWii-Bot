@@ -4,13 +4,14 @@
   "description": "Mario Kart Wii bot for the Wiimmfi MKWII discord server",
   "main": "index.js",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "dateformat": "^3.0.3",
     "discord.js": "^11.3.2",
     "get-json": "^1.0.0",
-    "cheerio": "^1.0.0-rc.2",
+    "got": "^8.3.1",
+    "html-to-text": "^4.0.0",
     "http": "^0.0.0",
-    "request": "^2.87.0",
-    "got": "^8.3.1"
+    "request": "^2.87.0"
   },
   "devDependencies": {},
   "scripts": {
